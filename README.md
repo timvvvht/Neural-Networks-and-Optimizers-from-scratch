@@ -1,11 +1,14 @@
 # Neural Networks and optimizers from scratch 
 
 ## Motivation
-The aim of this project is to consolidate my understanding about neural networks, and to refine my internal representation of neural networks as a computation graph. I also wanted to gain intuition about how and why different optimizers converge / behave, which is why I implemented 13 optimizers from scratch based on the papers they were published in. 
+The aim of this project is to consolidate my understanding about neural networks, and to refine my internal representation of neural networks as a computation graph. 
+
+I wanted to gain intuition about how and why different optimizers converge / behave. Therefore, I implemented 14 optimizers from scratch based on the papers they were published in. 
 
 ## Project
-In this ipython notebook, I wrote a neural network with an object-oriented approach and tested it on the MNIST dataset. 
-For the tests, the network architecture used was 2 linear layers with relu activation followed by an output layer to a softmax function. The Layer and Model objects created can handle an arbitrary number of layers of different units.
+In this ipython notebook, I wrote a neural network with an object-oriented approach and tested it on the MNIST dataset.
+
+For the tests, the network architecture used was 2 linear layers with relu activation followed by an output layer to a softmax function. The Layer and Model objects created can handle an arbitrary number of layers with different units.
 
 ## Optimizers
 The optimizers I have implemented in this notebook includes (so far):
@@ -34,3 +37,5 @@ The Adam variants show good performance in general, with QHAdam and AdamW showin
 ## To-do
 - Perhaps convert optimizers to separate objects for easier handling of arguments / optional parameters 
 - Convolutional layer and pooling from scratch, to test with CIFAR10 dataset 
+
+## References
