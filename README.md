@@ -29,8 +29,12 @@ The optimizers I have implemented in this notebook includes (so far):
 
 The graph below shows training loss over epochs for each optimizer. 
 [Image]
-It is noted that SGD with momentum / Nesterov momentum may be 'simple' gradient descent algorithms, but they perform quite well. With knowledge from my previous tests, these momentum optimizers are quite sensitive to the learning rate, as opposed to an algorithm from the "Adam's family".
-RMSprop and Adam do perform quite well in this task, which is perhaps why they're so commonly used. 
+It is noted that SGD with momentum / Nesterov momentum may be 'simple' gradient descent algorithms, but they perform quite well.
+
+With knowledge from my previous tests, these momentum optimizers are quite sensitive to the learning rate, as opposed to an algorithm from the "Adam's family".
+
+RMSprop and Adam do perform quite well in this task, which is perhaps why they're 'fan favourites' amongst Deep Learning practitioners. 
+
 The Adam variants show good performance in general, with QHAdam and AdamW showing promise in particular. 
 
 
