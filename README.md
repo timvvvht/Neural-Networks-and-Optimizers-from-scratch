@@ -3,10 +3,10 @@
 ## Motivation
 The aim of this project is to consolidate my understanding about neural networks, and to refine my internal representation of neural networks as a computation graph. 
 
-I wanted to gain intuition about how and why different optimizers converge / behave. Therefore, I implemented a decent amount of optimizers from scratch based on the papers they were published in. 
+I wanted to gain intuition about how and why different optimizers converge / behave. Therefore, I implemented a number of optimizers from scratch based on the papers they were published in. 
 
 ## Project
-In this ipython notebook, I wrote a neural network with an object-oriented approach and tested it on the MNIST dataset.
+In [this ipython notebook](https://github.com/timvvvht/Neural-Networks-and-Optimizers-from-scratch/blob/main/Neural%20Networks%20and%20Optimizers%20from%20scratch%20in%20NumPy.ipynb), I wrote a neural network with an object-oriented approach and tested it on the MNIST dataset. The optimisers are contained in [this script](https://github.com/timvvvht/Neural-Networks-and-Optimizers-from-scratch/blob/main/optimizers.py).
 
 For the tests, the network architecture used was 2 linear layers with relu activation followed by an output layer to a softmax function. The Layer and Model objects created can handle an arbitrary number of layers with different units.
 
@@ -41,5 +41,5 @@ With knowledge from my previous tests, these momentum optimizers are quite sensi
 
 
 ## To-do
-- ~~Perhaps convert optimizers to separate objects for easier handling of arguments / optional parameters ~~
+-  ~~Perhaps convert optimizers to separate objects for easier handling of arguments / optional parameters~~ 
 - Convolutional layer and pooling from scratch, to test with CIFAR10 dataset 
